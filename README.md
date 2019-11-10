@@ -16,3 +16,22 @@ Functions sin() and cos() are used to fulfill the calculation of uncertainty in 
 	* name variables from var[0] to var[n-1] (n is the number of variables)
 	* addition +, subtraction -, multiplication *, division /, power **, cos cos(), sin sin()
 - redo the last step i.e. In each running time, data can only be recorded once while expressions are allowed to enter several times
+
+## Example
+Variables: 2  
+Number 1: 1+-2  
+Number 2: 3+-4  
+
+>Input:  
+2  
+1  
+2  
+3  
+4  
+var[0]+var[1]  
+var[0]-var[1]  
+var[0]*var[1]  
+var[0]/var[1]  
+var[0]**var[1]  
+sin(var[0])  
+cos(var[0])  
